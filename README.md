@@ -37,6 +37,15 @@ Font and colors can be defined in Xresources with:
 * st.background
 * st.foreground
 * st.cursorColor
+* st.minlatency
+* st.maxlatency
+* st.blinktimeout
+* st.bellvolume
+* st.tabspaces
+* st.borderpx
+* st.cwscale
+* st.chscale
+* st.alpha
 
 ### used patches
 * [boxdraw](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.3.diff)

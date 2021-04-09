@@ -48,6 +48,8 @@ Font and colors can be defined in Xresources with:
 * st.alpha
 
 ### used patches
+* [alpha](https://st.suckless.org/patches/alpha/st-alpha-0.8.2.diff)
+* [anysize](https://st.suckless.org/patches/anysize/st-anysize-0.8.4.diff)
 * [boxdraw](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.3.diff)
 * [delkey](https://st.suckless.org/patches/delkey/st-delkey-20201112-4ef0cbd.diff)
 * [scrollback](https://st.suckless.org/patches/scrollback/st-scrollback-0.8.4.diff)

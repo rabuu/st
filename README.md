@@ -50,6 +50,7 @@ Font and colors can be defined in Xresources with:
 * [anysize](https://st.suckless.org/patches/anysize/st-anysize-0.8.4.diff)
 * [boxdraw](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.3.diff)
 * [delkey](https://st.suckless.org/patches/delkey/st-delkey-20201112-4ef0cbd.diff)
+* [ligatures-boxdraw](https://st.suckless.org/patches/ligatures/0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff)
 * [scrollback](https://st.suckless.org/patches/scrollback/st-scrollback-0.8.4.diff)
 	* [scrollback-mouse](https://st.suckless.org/patches/scrollback/st-scrollback-mouse-20191024-a2c479c.diff)
 	* [scrollback-mouse-altscreen](https://st.suckless.org/patches/scrollback/st-scrollback-mouse-altscreen-20200416-5703aa0.diff)

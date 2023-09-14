@@ -5,6 +5,7 @@
 #include <locale.h>
 #include <signal.h>
 #include <sys/select.h>
+#include <termios.h>
 #include <time.h>
 #include <unistd.h>
 #include <libgen.h>
@@ -1939,6 +1940,12 @@ run(void)
 
 	ttyfd = ttynew(opt_line, shell, opt_io, opt_cmd);
 	cresize(w, h);
+
+	/* FIX: IUTF8 flag */
+	struct termios term_attrs;
+	tcgetattr(ttyfd, &term_attrs);
+	term_attrs.c_iflag |= IUTF8;
+	tcsetattr(ttyfd, TCSANOW, &term_attrs);
 
 	for (timeout = -1, drawing = 0, lastblink = (struct timespec){0};;) {
 		FD_ZERO(&rfd);
